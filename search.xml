@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>免费15分钟测试云电脑</title>
+      <link href="/2020/05/19/a/"/>
+      <url>/2020/05/19/a/</url>
+      
+        <content type="html"><![CDATA[<p>首次使用博客，如果你有更好的意见和看法，请用邮件联系我<br>网址名称:Glyptodon Enterprise Demo<br>网址:<a href="https://demo.glyptodon.com/" target="_blank" rel="noopener">https://demo.glyptodon.com/</a><br>优点:无需注册，即点即用<br>缺点:每次只能使用15分钟<br>以前亚马逊有一个也有一个演示电脑，被国内的人乱用，导致关闭了<br>注意:本网站被墙，请使用科学上网工具<br>每次只能使用15分钟   无管理员权限</p><p>这家的演示电脑网速还是不错的<br><img src="https://s1.ax1x.com/2020/05/19/Y4L1hD.png" alt="hexo image"><br>手机端只能使用桌面键盘<br><img src="https://s1.ax1x.com/2020/05/19/Y4LQAK.png" alt="hexo image"></p><p>本文就到这里了，感谢观看</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 云电脑 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2020/05/19/hello-world/"/>
       <url>/2020/05/19/hello-world/</url>
