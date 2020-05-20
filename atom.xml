@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tomorrowx6.github.io/"/>
-  <updated>2020-05-20T12:15:56.714Z</updated>
+  <updated>2020-05-20T12:26:57.764Z</updated>
   <id>http://tomorrowx6.github.io/</id>
   
   <author>
@@ -17,11 +17,44 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Termux搭建Hexo博客</title>
+    <link href="http://tomorrowx6.github.io/2020/05/20/c/"/>
+    <id>http://tomorrowx6.github.io/2020/05/20/c/</id>
+    <published>2020-05-20T12:22:04.000Z</published>
+    <updated>2020-05-20T12:26:57.764Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;script&gt;
+        document.querySelectorAll(&#39;.github-emoji&#39;)
+          .forEach(el =&gt; {
+            if (!el.dataset.src) { return; }
+       
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Hexo" scheme="http://TomorrowX6.github.io/tags/Hexo/"/>
+    
+      <category term="Termux" scheme="http://TomorrowX6.github.io/tags/Termux/"/>
+    
+      <category term="Android" scheme="http://TomorrowX6.github.io/tags/Android/"/>
+    
+  </entry>
+  
+  <entry>
     <title>机场推荐(非合作)</title>
     <link href="http://tomorrowx6.github.io/2020/05/20/b/"/>
     <id>http://tomorrowx6.github.io/2020/05/20/b/</id>
     <published>2020-05-20T11:39:29.000Z</published>
-    <updated>2020-05-20T12:15:56.714Z</updated>
+    <updated>2020-05-20T12:21:23.534Z</updated>
     
     <summary type="html">
     
@@ -37,7 +70,9 @@
     
     
     
-      <category term="-机场 -半免费" scheme="http://TomorrowX6.github.io/tags/%E6%9C%BA%E5%9C%BA-%E5%8D%8A%E5%85%8D%E8%B4%B9/"/>
+      <category term="机场" scheme="http://TomorrowX6.github.io/tags/%E6%9C%BA%E5%9C%BA/"/>
+    
+      <category term="半免费" scheme="http://TomorrowX6.github.io/tags/%E5%8D%8A%E5%85%8D%E8%B4%B9/"/>
     
   </entry>
   
