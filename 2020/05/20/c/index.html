@@ -486,14 +486,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-05-20
+                    2020-05-21
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    52
+                    276
                 </div>
                 
 
@@ -515,7 +515,17 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <script>
+                <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>本文使用blimkfox源码(<a href="https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md" target="_blank" rel="noopener">https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md</a>)<br>引用了教程:韦阳的博客(<a href="https://godweiyang.com/2018/04/13/hexo-blog/" target="_blank" rel="noopener">https://godweiyang.com/2018/04/13/hexo-blog/</a>)<br>国光(<a href="https://www.sqlsec.com/2018/05/termux.html" target="_blank" rel="noopener">https://www.sqlsec.com/2018/05/termux.html</a>)<br>感谢以上源码和教程提供者<br>话不多说，进入正文</p>
+<h3 id="下载Termux"><a href="#下载Termux" class="headerlink" title="下载Termux"></a>下载Termux</h3><p><a href="https://play.google.com/store/apps/details?id=com.termux" target="_blank" rel="noopener">Google play</a><br><a href="https://f-droid.org/packages/com.termux/" target="_blank" rel="noopener">F-Droid</a><br><a href="https://www.coolapk.com/apk/com.termux" target="_blank" rel="noopener">酷安</a><br>建议Google play或F-Droid下载，酷安的是旧版本，F-Droid的是源文件重新编译签名为apk文件的</p>
+<h3 id="配置Termux"><a href="#配置Termux" class="headerlink" title="配置Termux"></a>配置Termux</h3><p>注意:部分教程需科学上网<br>首先先更新源</p>
+<p>‘’’bash<br>pkg update<br>‘’’</p>
+<p>更新源后，你可以更换为清华源</p>
+<p>‘’’bash<br>sed -i ‘s@^(deb.*stable main)$@#\1\ndeb <a href="https://mirrors.tuna.tsinghua.edu.cn/termux/termux-packages-24" target="_blank" rel="noopener">https://mirrors.tuna.tsinghua.edu.cn/termux/termux-packages-24</a> stable main@’ $PREFIX/etc/apt/sources.list</p>
+<p>sed -i ‘s@^(deb.*games stable)$@#\1\ndeb <a href="https://mirrors.tuna.tsinghua.edu.cn/termux/game-packages-24" target="_blank" rel="noopener">https://mirrors.tuna.tsinghua.edu.cn/termux/game-packages-24</a> games stable@’ $PREFIX/etc/apt/sources.list.d/game.list</p>
+<p>sed -i ‘s@^(deb.*science stable)$@#\1\ndeb <a href="https://mirrors.tuna.tsinghua.edu.cn/termux/science-packages-24" target="_blank" rel="noopener">https://mirrors.tuna.tsinghua.edu.cn/termux/science-packages-24</a> science stable@’ $PREFIX/etc/apt/sources.list.d/science.list</p>
+<p>pkg update</p>
+<p>‘’’</p>
+<script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -816,10 +826,7 @@
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return
+                            前言本文使用blimkfox源码(https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md)引用了教程:韦阳的博客(https://godweiyang.
                         
                     </div>
                     <div class="publish-info">
@@ -1140,7 +1147,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">602</span>&nbsp;字
+                class="white-color">826</span>&nbsp;字
             
             
             
