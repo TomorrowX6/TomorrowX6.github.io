@@ -4,6 +4,29 @@
   
     
     <entry>
+      <title>删除软件的桌面快捷方式</title>
+      <link href="/2020/05/22/d/"/>
+      <url>/2020/05/22/d/</url>
+      
+        <content type="html"><![CDATA[<h3 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h3><p>注意:并不是所有应用都可以修改<br>注意:并不是所有应用都可以修改<br>注意:并不是所有应用都可以修改<br>解决方法参照特殊情况部分<br>下载MT管理器(各大应用商城直接搜索)<br>下载<a href="https://www.coolapk.com/apk/com.x7890.shortcutcreator" target="_blank" rel="noopener">创造应用快捷方式</a></p><h3 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h3><p>进入MT管理器，选择你要修改的应用<br><img src="https://s1.ax1x.com/2020/05/22/YX6Amt.png" alt="hexo"><br>查看<br>使用反编译打开AndroidManifest.xml文件<br><img src="https://s1.ax1x.com/2020/05/22/YX6O3Q.png" alt="hexo"><br>过滤(在右上角:中)android.intent.category.LAUNCHER(也说是应用快捷方式)</p><pre class=" language-bash"><code class="language-bash">android.intent.category.LAUNCHER</code></pre><p>将其清除<br><img src="https://s1.ax1x.com/2020/05/22/YXgiZt.png" alt="hexo"><br><img src="https://s1.ax1x.com/2020/05/22/YXgBo6.png" alt="hexo"><br>如图，退出并保存，勾选自动签名<br>安装。。。。。。</p><h3 id="打开应用"><a href="#打开应用" class="headerlink" title="打开应用"></a>打开应用</h3><p>有的人说了，我删除了快捷方式，那我怎么打开啊，别急，打开创造应用快捷方式<br>下滑刷新，就看到你刚安装的应用了，点击活动列表，选择第一个(一般的都是第一个)<br>打开，就可以了</p><h3 id="特殊情况"><a href="#特殊情况" class="headerlink" title="特殊情况"></a>特殊情况</h3><p>当然，有一些应用会有加密的，为了防止被破解，如果你修改安装后出现闪退，无法正常使用，说明应用被加密，修改这个会特别复杂<br>建议修改虚拟机，在虚拟机中安装应用，也不容易在桌面发现<br>但是设置中会有记载的和一般工程模式中的使用应用记录<br>主流的虚拟机有:光速虚拟机和VMOS<br>百度一下，你就知道<br>本文就到这里了，感谢观看</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Android </tag>
+            
+            <tag> 软件 </tag>
+            
+            <tag> MT管理器 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Termux搭建Hexo博客</title>
       <link href="/2020/05/20/c/"/>
       <url>/2020/05/20/c/</url>
