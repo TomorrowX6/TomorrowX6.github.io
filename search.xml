@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>解析DNS(Freenom)</title>
+      <link href="/2020/05/27/f/"/>
+      <url>/2020/05/27/f/</url>
+      
+        <content type="html"><![CDATA[<p>拥有了自己的域名，我们还需要解析<br>首先进入Freenom<br><img src="https://s1.ax1x.com/2020/05/27/tAr2Y4.png" alt="github"><br>点击 My Domains<br><img src="https://s1.ax1x.com/2020/05/27/tArhlR.png" alt="github"><br>点击Manage Domain<br><img src="https://s1.ax1x.com/2020/05/27/tAr5Ox.png" alt="github"><br>点击Nameservers<br><img src="https://s1.ax1x.com/2020/05/27/tArXpd.png" alt="github"><br>添加参数<br>F1G1NS1.DNSPOD.NET<br>F1G1NS2.DNSPOD.NET<br>登录DNSPod并进入控制台(<a href="https://console.dnspod.cn/" target="_blank" rel="noopener">https://console.dnspod.cn/</a>)<br>点击DNS解析<br>添加域名(输入你的注册域名)<br>解析正常就是绿色的<br>点击刚才添加的域名<br>添加记录<br><img src="https://s1.ax1x.com/2020/05/27/tAo7Yn.png" alt="github"><br>我用了域名邮箱，所以记录值比你们多<br>主机:@  记录类型:CNAME  记录值:github用户名.github.io<br>主机:www  记录类型:CNAME  记录值:github用户名.github.io<br>添加完成就可以用域名访问你的网站了<br>Enjoy it</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> DNS </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 域名 </tag>
+            
+            <tag> 解析 </tag>
+            
+            <tag> DNS </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>免费域名注册</title>
       <link href="/2020/05/26/e/"/>
       <url>/2020/05/26/e/</url>

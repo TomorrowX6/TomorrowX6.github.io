@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://tomorrowx6.ml/"/>
-  <updated>2020-05-27T03:19:38.434Z</updated>
+  <updated>2020-05-27T09:07:40.351Z</updated>
   <id>https://tomorrowx6.ml/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>解析DNS(Freenom)</title>
+    <link href="https://tomorrowx6.ml/2020/05/27/f/"/>
+    <id>https://tomorrowx6.ml/2020/05/27/f/</id>
+    <published>2020-05-27T07:11:52.000Z</published>
+    <updated>2020-05-27T09:07:40.351Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;拥有了自己的域名，我们还需要解析&lt;br&gt;首先进入Freenom&lt;br&gt;&lt;img src=&quot;https://s1.ax1x.com/2020/05/27/tAr2Y4.png&quot; alt=&quot;github&quot;&gt;&lt;br&gt;点击 My Domains&lt;br&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+    
+      <category term="DNS" scheme="https://tomorrowx6.ml/categories/DNS/"/>
+    
+    
+      <category term="域名" scheme="https://tomorrowx6.ml/tags/%E5%9F%9F%E5%90%8D/"/>
+    
+      <category term="解析" scheme="https://tomorrowx6.ml/tags/%E8%A7%A3%E6%9E%90/"/>
+    
+      <category term="DNS" scheme="https://tomorrowx6.ml/tags/DNS/"/>
+    
+  </entry>
   
   <entry>
     <title>免费域名注册</title>
