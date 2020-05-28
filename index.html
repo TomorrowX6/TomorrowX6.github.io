@@ -1476,8 +1476,28 @@ $(function () {
 <script type="text/javascript" src="\js\FunnyTitle.js"></script>
 
 <!-- 天气浮窗 -->
-<!-- TomorrowX6 -->
-<script type="text/javascript">
-WIDGET = {FID: 'PZ2C1iBKjf'}
+<div id="he-plugin-simple"></div>
+<script>
+WIDGET = {
+  CONFIG: {
+    "modules": "01234",
+    "background": 1,
+    "tmpColor": "FFFFFF",
+    "tmpSize": 16,
+    "cityColor": "FFFFFF",
+    "citySize": 16,
+    "aqiSize": 16,
+    "weatherIconSize": 24,
+    "alertIconSize": 18,
+    "padding": "10px 10px 10px 10px",
+    "shadow": "1",
+    "language": "auto",
+    "borderRadius": 5,
+    "fixed": "false",
+    "vertical": "middle",
+    "horizontal": "center",
+    "key": "47f506fdd1fc4448822ea1e07f4aee5a"
+  }
+}
 </script>
-<script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"></script>
+<script src="https://widget.heweather.net/simple/static/js/he-simple-common.js?v=1.1"></script>
