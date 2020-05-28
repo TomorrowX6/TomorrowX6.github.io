@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Termux搭建Hexo博客, 科技大厦">
+    <meta name="keywords" content="g, 科技大厦">
     <meta name="description" content="科技大厦-用心做自己的文章">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Termux搭建Hexo博客 | 科技大厦</title>
+    <title>g | 科技大厦</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -322,12 +322,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/16.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/7.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Termux搭建Hexo博客</h1>
+                    <h1 class="description center-align post-title">g</h1>
                 </div>
             </div>
         </div>
@@ -442,33 +442,12 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                    <div class="article-tag">
-                        
-                            <a href="/tags/Hexo/">
-                                <span class="chip bg-color">Hexo</span>
-                            </a>
-                        
-                            <a href="/tags/Termux/">
-                                <span class="chip bg-color">Termux</span>
-                            </a>
-                        
-                            <a href="/tags/Android/">
-                                <span class="chip bg-color">Android</span>
-                            </a>
-                        
-                    </div>
+                          <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                          </div>
                     
                 </div>
                 <div class="col s5 right-align">
-                    
-                    <div class="post-cate">
-                        <i class="fas fa-bookmark fa-fw icon-category"></i>
-                        
-                            <a href="/categories/Hexo/" class="post-category">
-                                Hexo
-                            </a>
-                        
-                    </div>
                     
                 </div>
             </div>
@@ -477,28 +456,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-05-20
+                    2020-05-27
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-05-26
+                    2020-05-27
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    3k
+                    52
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    12 分
+                    1 分
                 </div>
                 
 
@@ -513,231 +492,7 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>本文使用<a href="https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md" target="_blank" rel="noopener">blimkfox源码</a><br>引用了教程:<a href="https://godweiyang.com/2018/04/13/hexo-blog/" target="_blank" rel="noopener">韦阳的博客</a><br><a href="https://www.sqlsec.com/2018/05/termux.html" target="_blank" rel="noopener">国光</a><br>感谢以上源码和教程提供者<br>话不多说，进入正文</p>
-<h3 id="下载Termux"><a href="#下载Termux" class="headerlink" title="下载Termux"></a>下载Termux</h3><p><a href="https://play.google.com/store/apps/details?id=com.termux" target="_blank" rel="noopener">Google play</a><br><a href="https://f-droid.org/packages/com.termux/" target="_blank" rel="noopener">F-Droid</a><br><a href="https://www.coolapk.com/apk/com.termux" target="_blank" rel="noopener">酷安</a><br>建议Google play或F-Droid下载，酷安的是旧版本，F-Droid的是源文件重新编译签名为apk文件的</p>
-<h3 id="语法部分"><a href="#语法部分" class="headerlink" title="语法部分"></a>语法部分</h3><p>cd blog   进入blog文件夹<br>rm -rf A  删除A文件<br>mkdir A   创造A文件夹<br>mv A /data/data/com.termux/files/home/blog/<br>在你想移动的文件的文件夹中输入指令<br>移动A文件到 /data/data/com.termux/files/home/blog/<br>vim A 编辑/新建A文件<br>vim使用方法:  i编辑<br>ESC+ :wq  保存退出   ESC+:q!不保存退出<br>ESC+/A   搜索A字符</p>
-<h3 id="Hexo博客编写方法"><a href="#Hexo博客编写方法" class="headerlink" title="Hexo博客编写方法"></a>Hexo博客编写方法</h3><p>hexo new (文件名)<br>然后会生成一个文件在source/_posts文件夹中<br>vim (文件名)<br>title     网站标题<br>tag     标签<br>多标签写法</p>
-<pre class=" language-bash"><code class="language-bash">---
-title: 文章标题
-tags: 
-  - hexo
-  - hexo入门
----</code></pre>
-<p>引入代码框</p>
-<pre class=" language-bash"><code class="language-bash">    ```ba sh
-    没有空格ba sh替换为bash</code></pre>
-<p>hexo g  # 生成博客网页文件<br>hexo s  # 本地预览博客<br>hexo d  # 上传网页文件到github</p>
-<h3 id="配置Termux"><a href="#配置Termux" class="headerlink" title="配置Termux"></a>配置Termux</h3><p>注意:部分教程需科学上网<br>首先先更新源</p>
-<pre class=" language-bash"><code class="language-bash">pkg update</code></pre>
-<p>更新源后，你可以更换为清华源</p>
-<pre class=" language-bash"><code class="language-bash"><span class="token function">sed</span> -i <span class="token string">'s@^\(deb.*stable main\)<span class="token variable">$@#</span>\1\ndeb https://mirrors.tuna.tsinghua.edu.cn/termux/termux-packages-24 stable main@'</span> <span class="token variable">$PREFIX</span>/etc/apt/sources.list
-
-<span class="token function">sed</span> -i <span class="token string">'s@^\(deb.*games stable\)<span class="token variable">$@#</span>\1\ndeb https://mirrors.tuna.tsinghua.edu.cn/termux/game-packages-24 games stable@'</span> <span class="token variable">$PREFIX</span>/etc/apt/sources.list.d/game.list
-
-<span class="token function">sed</span> -i <span class="token string">'s@^\(deb.*science stable\)<span class="token variable">$@#</span>\1\ndeb https://mirrors.tuna.tsinghua.edu.cn/termux/science-packages-24 science stable@'</span> <span class="token variable">$PREFIX</span>/etc/apt/sources.list.d/science.list
-
-pkg update
-</code></pre>
-<p>更换为清华源后下载和更新源速度变快了很多，如果你的梯子够快的话，可以忽略这步</p>
-<h3 id="美化Termux"><a href="#美化Termux" class="headerlink" title="美化Termux"></a>美化Termux</h3><p>这步不是必要的，可以跳过</p>
-<pre class=" language-bash"><code class="language-bash">sh -c <span class="token string">"<span class="token variable"><span class="token variable">$(</span>curl -fsSL https://html.sqlsec.com/termux-install.sh<span class="token variable">)</span></span>"</span></code></pre>
-<p>输入后是否授权访问文件<br>当然要同意了<br>如果拒绝了，可以输入</p>
-<pre class=" language-bash"><code class="language-bash">termux-setup-storage</code></pre>
-<p>重新获取权限<br>然后让你选择色彩样式和字体样式<br>我设置的是</p>
-<pre class=" language-bash"><code class="language-bash">Enter a number, leave blank to not to change: 0
-Enter a number, leave blank to not to change: 6</code></pre>
-<p>如果想重新选择你可以输入<br>~/.termux/colors.sh   更改色彩样式<br>~/.termux/fonts.sh    更改字体样式</p>
-<h3 id="下载vim"><a href="#下载vim" class="headerlink" title="下载vim"></a>下载vim</h3><p>直接输入指令</p>
-<pre class=" language-bash"><code class="language-bash">pkg <span class="token function">install</span> vim</code></pre>
-<h3 id="下载Nodejs"><a href="#下载Nodejs" class="headerlink" title="下载Nodejs"></a>下载Nodejs</h3><p>直接输入指令</p>
-<pre class=" language-bash"><code class="language-bash">pkg <span class="token function">install</span> nodejs-lts</code></pre>
-<h3 id="下载git"><a href="#下载git" class="headerlink" title="下载git"></a>下载git</h3><p>直接输入指令</p>
-<pre class=" language-bash"><code class="language-bash">pkg <span class="token function">install</span> <span class="token function">git</span></code></pre>
-<h3 id="新建文件夹"><a href="#新建文件夹" class="headerlink" title="新建文件夹"></a>新建文件夹</h3><p>直接输入指令</p>
-<pre class=" language-bash"><code class="language-bash"><span class="token function">mkdir</span> blog</code></pre>
-<p>文件名自定义，blog为文件名</p>
-<h3 id="下载Hexo"><a href="#下载Hexo" class="headerlink" title="下载Hexo"></a>下载Hexo</h3><p>进入文件夹blog(cd blog) 输入指令</p>
-<pre class=" language-bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> hexo-cli -g</code></pre>
-<p>更新一下npm源</p>
-<pre class=" language-bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span></code></pre>
-<p>输入 hexo g 生成静态网页<br>输入 hexo s 本地本地预览网页<br>接着我们用浏览器打开 <a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a><br>看到如下图说明你成功了<br><img src="https://s1.ax1x.com/2020/05/21/YHyO3t.jpg" alt="Hexo"><br>按CTRL+C结束</p>
-<h3 id="下载主题"><a href="#下载主题" class="headerlink" title="下载主题"></a>下载主题</h3><p>打开文件夹 cd blog/themes<br>输入指令</p>
-<pre class=" language-bash"><code class="language-bash"><span class="token function">git</span> clone https://github.com/blinkfox/hexo-theme-matery.git</code></pre>
-<p>等待下载完成</p>
-<h3 id="切换主题"><a href="#切换主题" class="headerlink" title="切换主题"></a>切换主题</h3><p>修改blog文件夹下的_config.yml<br>vim _config.yml<br>找到themes值<br>修改为 theme: hexo-theme-matery</p>
-<p>以下搬了原文，因为没什么可以详细讲的<br>    请修改 _config.yml 的 url 的值为你的网站主 URL（如：<a href="http://xxx.github.io）。" target="_blank" rel="noopener">http://xxx.github.io）。</a><br>    建议修改两个 per_page 的分页条数值为 6 的倍数，如：12、18 等，这样文章列表在各个屏幕下都能较好的显示。<br>    如果你是中文用户，则建议修改 language 的值为 zh-CN。</p>
-<h3 id="新建分类-categories-页"><a href="#新建分类-categories-页" class="headerlink" title="新建分类 categories 页"></a>新建分类 categories 页</h3><p>categories 页是用来展示所有分类的页面，如果在你的博客 source 目录下还没有 categories/index.md 文件，那么你就需要新建一个，命令如下：</p>
-<pre class=" language-bash"><code class="language-bash">hexo new page <span class="token string">"categories"</span></code></pre>
-<p>编辑你刚刚新建的页面文件 /source/categories/index.md，至少需要以下内容：</p>
-<pre class=" language-bash"><code class="language-bash">---
-title: categories
-date: 2018-09-30 17:25:30
-type: <span class="token string">"categories"</span>
-layout: <span class="token string">"categories"</span>
----</code></pre>
-<h3 id="新建标签-tags-页"><a href="#新建标签-tags-页" class="headerlink" title="新建标签 tags 页"></a>新建标签 tags 页</h3><p>tags 页是用来展示所有标签的页面，如果在你的博客 source 目录下还没有 tags/index.md 文件，那么你就需要新建一个，命令如下：</p>
-<pre class=" language-bash"><code class="language-bash">hexo new page <span class="token string">"tags"</span></code></pre>
-<p>编辑你刚刚新建的页面文件 /source/tags/index.md，至少需要以下内容：</p>
-<pre class=" language-bash"><code class="language-bash">---
-title: tags
-date: 2018-09-30 18:23:38
-type: <span class="token string">"tags"</span>
-layout: <span class="token string">"tags"</span>
----</code></pre>
-<h3 id="新建关于我-about-页"><a href="#新建关于我-about-页" class="headerlink" title="新建关于我 about 页"></a>新建关于我 about 页</h3><p>about 页是用来展示关于我和我的博客信息的页面，如果在你的博客 source 目录下还没有 about/index.md 文件，那么你就需要新建一个，命令如下：</p>
-<pre class=" language-bash"><code class="language-bash">hexo new page <span class="token string">"about"</span></code></pre>
-<p>编辑你刚刚新建的页面文件 /source/about/index.md，至少需要以下内容：</p>
-<pre class=" language-bash"><code class="language-bash">---
-title: about
-date: 2018-09-30 17:25:30
-type: <span class="token string">"about"</span>
-layout: <span class="token string">"about"</span>
----</code></pre>
-<h3 id="新建留言板-contact-页"><a href="#新建留言板-contact-页" class="headerlink" title="新建留言板 contact 页"></a>新建留言板 contact 页</h3><p>contact 页是用来展示留言板信息的页面，如果在你的博客 source 目录下还没有 contact/index.md 文件，那么你就需要新建一个，命令如下：</p>
-<pre class=" language-bash"><code class="language-bash">hexo new page <span class="token string">"contact"</span></code></pre>
-<p>编辑你刚刚新建的页面文件 /source/contact/index.md，至少需要以下内容：</p>
-<pre class=" language-bash"><code class="language-bash">---
-title: contact
-date: 2018-09-30 17:25:30
-type: <span class="token string">"contact"</span>
-layout: <span class="token string">"contact"</span>
----</code></pre>
-<pre><code>注：本留言板功能依赖于第三方评论系统，请激活你的评论系统才有效果。并且在主题的 _config.yml 文件中，第 19 至 21 行的“菜单”配置，取消关于留言板的注释即可。</code></pre><h3 id="新建友情链接-friends-页"><a href="#新建友情链接-friends-页" class="headerlink" title="新建友情链接 friends 页"></a>新建友情链接 friends 页</h3><p>friends 页是用来展示友情链接信息的页面，如果在你的博客 source 目录下还没有 friends/index.md 文件，那么你就需要新建一个，命令如下：</p>
-<pre class=" language-bash"><code class="language-bash">hexo new page <span class="token string">"friends"</span></code></pre>
-<p>编辑你刚刚新建的页面文件 /source/friends/index.md，至少需要以下内容：</p>
-<pre class=" language-bash"><code class="language-bash">---
-title: friends
-date: 2018-12-12 21:25:30
-type: <span class="token string">"friends"</span>
-layout: <span class="token string">"friends"</span>
----
-
-``<span class="token variable"><span class="token variable">`</span><span class="token function">bash</span>
-同时，在你的博客 <span class="token function">source</span> 目录下新建 _data 目录，在 _data 目录中新建 friends.json 文件，文件内容如下所示：
-新建文件直接进入source目录 <span class="token function">cd</span> blog/source
-新建文件 vim friends.json
-<span class="token variable">`</span></span>``bash
-<span class="token punctuation">[</span><span class="token punctuation">{</span>
-    <span class="token string">"avatar"</span><span class="token keyword">:</span> <span class="token string">"http://image.luokangyuan.com/1_qq_27922023.jpg"</span>,
-    <span class="token string">"name"</span><span class="token keyword">:</span> <span class="token string">"码酱"</span>,
-    <span class="token string">"introduction"</span><span class="token keyword">:</span> <span class="token string">"我不是大佬，只是在追寻大佬的脚步"</span>,
-    <span class="token string">"url"</span><span class="token keyword">:</span> <span class="token string">"http://luokangyuan.com/"</span>,
-    <span class="token string">"title"</span><span class="token keyword">:</span> <span class="token string">"前去学习"</span>
-<span class="token punctuation">}</span>, <span class="token punctuation">{</span>
-    <span class="token string">"avatar"</span><span class="token keyword">:</span> <span class="token string">"http://image.luokangyuan.com/4027734.jpeg"</span>,
-    <span class="token string">"name"</span><span class="token keyword">:</span> <span class="token string">"闪烁之狐"</span>,
-    <span class="token string">"introduction"</span><span class="token keyword">:</span> <span class="token string">"编程界大佬，技术牛，人还特别好，不懂的都可以请教大佬"</span>,
-    <span class="token string">"url"</span><span class="token keyword">:</span> <span class="token string">"https://blinkfox.github.io/"</span>,
-    <span class="token string">"title"</span><span class="token keyword">:</span> <span class="token string">"前去学习"</span>
-<span class="token punctuation">}</span>, <span class="token punctuation">{</span>
-    <span class="token string">"avatar"</span><span class="token keyword">:</span> <span class="token string">"http://image.luokangyuan.com/avatar.jpg"</span>,
-    <span class="token string">"name"</span><span class="token keyword">:</span> <span class="token string">"ja_rome"</span>,
-    <span class="token string">"introduction"</span><span class="token keyword">:</span> <span class="token string">"平凡的脚步也可以走出伟大的行程"</span>,
-    <span class="token string">"url"</span><span class="token keyword">:</span> <span class="token string">"https://me.csdn.net/jlh912008548"</span>,
-    <span class="token string">"title"</span><span class="token keyword">:</span> <span class="token string">"前去学习"</span>
-<span class="token punctuation">}</span><span class="token punctuation">]</span></code></pre>
-<p>执行hexo clean &amp;&amp; hexo g重新生成博客文件</p>
-<h3 id="代码高亮"><a href="#代码高亮" class="headerlink" title="代码高亮"></a>代码高亮</h3><p>由于 Hexo 自带的代码高亮主题显示不好看，所以主题中使用到了 hexo-prism-plugin 的 Hexo 插件来做代码高亮，安装命令如下：</p>
-<pre class=" language-bash"><code class="language-bash"><span class="token function">npm</span> i -S hexo-prism-plugin</code></pre>
-<p>然后，修改 Hexo 根目录下 _config.yml 文件中 highlight.enable 的值为 false，并新增 prism 插件相关的配置，主要配置如下：</p>
-<pre class=" language-bash"><code class="language-bash">highlight:
-  enable: <span class="token boolean">false</span>
-
-prism_plugin:
-  mode: <span class="token string">'preprocess'</span>    <span class="token comment" spellcheck="true"># realtime/preprocess</span>
-  theme: <span class="token string">'tomorrow'</span>
-  line_number: <span class="token boolean">false</span>    <span class="token comment" spellcheck="true"># default false</span>
-  custom_css:</code></pre>
-<h3 id="搜索"><a href="#搜索" class="headerlink" title="搜索"></a>搜索</h3><p>本主题中还使用到了 hexo-generator-search 的 Hexo 插件来做内容搜索，安装命令如下：</p>
-<pre class=" language-bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> hexo-generator-search --save</code></pre>
-<p>在 Hexo 根目录下的 _config.yml 文件中，新增以下的配置项：</p>
-<pre class=" language-bash"><code class="language-bash">search:
-  path: search.xml
-  field: post</code></pre>
-<h3 id="中文链接转拼音"><a href="#中文链接转拼音" class="headerlink" title="中文链接转拼音"></a>中文链接转拼音</h3><p>如果你的文章名称是中文的，那么 Hexo 默认生成的永久链接也会有中文，这样不利于 SEO，且 gitment 评论对中文链接也不支持。我们可以用 hexo-permalink-pinyin Hexo 插件使在生成文章时生成中文拼音的永久链接。</p>
-<p>安装命令如下：</p>
-<pre class=" language-bash"><code class="language-bash"><span class="token function">npm</span> i hexo-permalink-pinyin --save</code></pre>
-<p>在 Hexo 根目录下的 _config.yml 文件中，新增以下的配置项：</p>
-<pre class=" language-bash"><code class="language-bash">permalink_pinyin:
-  enable: <span class="token boolean">true</span>
-  separator: <span class="token string">'-'</span> <span class="token comment" spellcheck="true"># default: '-'</span></code></pre>
-<p>注：除了此插件外，hexo-abbrlink 插件也可以生成非中文的链接。</p>
-<h3 id="文章字数统计插件"><a href="#文章字数统计插件" class="headerlink" title="文章字数统计插件"></a>文章字数统计插件</h3><p>如果你想要在文章中显示文章字数、阅读时长信息，可以安装 hexo-wordcount插件。</p>
-<p>安装命令如下：</p>
-<pre class=" language-bash"><code class="language-bash"><span class="token function">npm</span> i --save hexo-wordcount</code></pre>
-<p>然后只需在本主题下的 _config.yml 文件中，将各个文章字数相关的配置激活即可：</p>
-<pre class=" language-bash"><code class="language-bash">postInfo:
-  date: <span class="token boolean">true</span>
-  update: <span class="token boolean">false</span>
-  wordCount: <span class="token boolean">false</span> <span class="token comment" spellcheck="true"># 设置文章字数统计为 true.</span>
-  totalCount: <span class="token boolean">false</span> <span class="token comment" spellcheck="true"># 设置站点文章总字数统计为 true.</span>
-  min2read: <span class="token boolean">false</span> <span class="token comment" spellcheck="true"># 阅读时长.</span>
-  readCount: <span class="token boolean">false</span> <span class="token comment" spellcheck="true"># 阅读次数.</span></code></pre>
-<h3 id="添加emoji表情支持"><a href="#添加emoji表情支持" class="headerlink" title="添加emoji表情支持"></a>添加emoji表情支持</h3><p>本主题新增了对emoji表情的支持，使用到了 hexo-filter-github-emojis 的 Hexo 插件来支持 emoji表情的生成，把对应的markdown emoji语法（::,例如：:smile:）转变成会跳跃的emoji表情，安装命令如下：</p>
-<pre class=" language-bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> hexo-filter-github-emojis --save</code></pre>
-<p>在 Hexo 根目录下的 _config.yml 文件中，新增以下的配置项：</p>
-<pre class=" language-bash"><code class="language-bash">githubEmojis:
-  enable: <span class="token boolean">true</span>
-  className: github-emoji
-  inject: <span class="token boolean">true</span>
-  styles:
-  customEmojis:</code></pre>
-<h3 id="添加-RSS-订阅支持"><a href="#添加-RSS-订阅支持" class="headerlink" title="添加 RSS 订阅支持"></a>添加 RSS 订阅支持</h3><p>本主题中还使用到了 hexo-generator-feed 的 Hexo 插件来做 RSS，安装命令如下：</p>
-<pre class=" language-bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> hexo-generator-feed --save</code></pre>
-<p>在 Hexo 根目录下的 _config.yml 文件中，新增以下的配置项：</p>
-<pre class=" language-bash"><code class="language-bash">feed:
-  type: atom
-  path: atom.xml
-  limit: 20
-  hub:
-  content:
-  content_limit: 140
-  content_limit_delim: <span class="token string">' '</span>
-  order_by: -date</code></pre>
-<p>执行 hexo clean &amp;&amp; hexo g 重新生成博客文件，然后在 public 文件夹中即可看到 atom.xml 文件，说明你已经安装成功了。</p>
-<h3 id="注册Github账号"><a href="#注册Github账号" class="headerlink" title="注册Github账号"></a>注册Github账号</h3><p>这步是从韦阳的博客搬过来的<br>接下来就去注册一个github账号，用来存放我们的网站。大多数小伙伴应该都有了吧，作为一个合格的程序猿（媛）还是要有一个的。</p>
-<p>打开<a href="https://github.com/，新建一个项目，如下所示：" target="_blank" rel="noopener">https://github.com/，新建一个项目，如下所示：</a><br><img src="https://godweiyang.com/2018/04/13/hexo-blog/1.jpg" alt="github"><br>然后如下图所示，输入自己的项目名字，后面一定要加.github.io后缀，README初始化也要勾上。名称一定要和你的github名字完全一样，比如你github名字叫abc，那么仓库名字一定要是abc.github.io。<br><img src="https://godweiyang.com/2018/04/13/hexo-blog/2.jpg" alt="github"><br>然后项目就建成了，点击Settings，向下拉到最后有个GitHub Pages，点击Choose a theme选择一个主题。然后等一会儿，再回到GitHub Pages，会变成下面这样：<br><img src="https://godweiyang.com/2018/04/13/hexo-blog/3.jpg" alt="github"><br>点击那个链接，就会出现自己的网页啦，效果如下：<br><img src="https://godweiyang.com/2018/04/13/hexo-blog/4.jpg" alt="github"></p>
-<h3 id="连接Github与本地"><a href="#连接Github与本地" class="headerlink" title="连接Github与本地"></a>连接Github与本地</h3><p>输入</p>
-<pre class=" language-bash"><code class="language-bash"><span class="token function">git</span> config --global user.name <span class="token string">"TomorrowX6"</span>
-<span class="token function">git</span> config --global user.email <span class="token string">"fg24680s@gmail.com"</span></code></pre>
-<p>用户名和邮箱自己改<br>然后生成密钥SSH key：<br>ssh-keygen -t rsa -C “<a href="mailto:fg24680s@gmail.com">fg24680s@gmail.com</a>“<br>打开github，在头像下面点击settings，再点击SSH and GPG keys，新建一个SSH，名字随便。</p>
-<p>git bash中输入</p>
-<pre class=" language-bash"><code class="language-bash"><span class="token function">cat</span> ~/.ssh/id_rsa.pub</code></pre>
-<p>将输出的内容复制到框中，点击确定保存。</p>
-<p>输入ssh -T <a href="mailto:git@github.com">git@github.com</a>，如果如下图所示，出现你的用户名，那就成功了。<br><img src="https://godweiyang.com/2018/04/13/hexo-blog/6.jpg" alt="github"><br>打开博客根目录下的_config.yml文件，这是博客的配置文件，在这里你可以修改与博客相关的各种信息。</p>
-<p>修改最后一行的配置：</p>
-<pre class=" language-bash"><code class="language-bash">deploy:
-  type: <span class="token function">git</span>
-  repository: https://github.com/TomorrowX6/TomorrowX6.github.io
-  branch: master</code></pre>
-<p>repository修改为你自己的github项目地址。</p>
-<p>输入hexo g后输入hexo d同步到云端</p>
-<h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><p>一般的配置文件在_config.yml和themes/hexo-theme-matery/ _config.yml，你可以在配置文件中修改你想要的配置</p>
-<h3 id="live2d"><a href="#live2d" class="headerlink" title="live2d"></a>live2d</h3><p>直接输入指令</p>
-<pre class=" language-bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> --save hexo-helper-live2d</code></pre>
-<pre class=" language-bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> live2d-widget-model-shizuku</code></pre>
-<p>在根目录vim _config.yml下添加</p>
-<pre class=" language-bash"><code class="language-bash">live2d:
-  enable: <span class="token boolean">true</span>
-  scriptFrom: local
-  pluginRootPath: live2dw/
-  pluginJsPath: lib/
-  pluginModelPath: assets/
-  tagMode: <span class="token boolean">false</span>
-  log: <span class="token boolean">false</span>
-  model:
-    use: live2d-widget-model-shizuku
-  display:
-    position: right
-    width: 150
-    height: 300
-  mobile:
-    show: <span class="token boolean">true</span>
-  react:
-    opacity: 0.7</code></pre>
-<p>注意:live2d与不蒜子会发生冲突<br>解决方法:<br>修改\themes\hexo-theme-matery\source\libs\others\busuanzi.pure.mini.js文件<br>将b.style.display=”none”中none去掉<br>就不会发生冲突了<br>摘选自:<a href="https://blog.csdn.net/weixin_37891983/article/details/105362748" target="_blank" rel="noopener">https://blog.csdn.net/weixin_37891983/article/details/105362748</a></p>
-<p>好了，本文就到这里了，再次感谢blimkfox 韦阳的博客 国光<br>本文可能有些地方上不成熟，请大家在评论区指点(评论区已被墙，请使用科学上网工具)<br>如果你有很多的资金，并且还非常喜欢本文章，请打赏我，十分感谢你</p>
-<script>
+                <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -780,7 +535,7 @@ prism_plugin:
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://tomorrowx6.ml/2020/05/20/c/">https://tomorrowx6.ml/2020/05/20/c/</a>
+                    <a href="https://tomorrowx6.ml/2020/05/27/g/">https://tomorrowx6.ml/2020/05/27/g/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -817,19 +572,7 @@ prism_plugin:
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            
-                                <a href="/tags/Hexo/">
-                                    <span class="chip bg-color">Hexo</span>
-                                </a>
-                            
-                                <a href="/tags/Termux/">
-                                    <span class="chip bg-color">Termux</span>
-                                </a>
-                            
-                                <a href="/tags/Android/">
-                                    <span class="chip bg-color">Android</span>
-                                </a>
-                            
+                            <span class="chip bg-color">无标签</span>
                         </div>
                     
                 </div>
@@ -1258,58 +1001,42 @@ prism_plugin:
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2020/05/22/d/">
+                <a href="/2020/05/27/g/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="删除安卓软件的桌面快捷方式">
+                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="g">
                         
-                        <span class="card-title">删除安卓软件的桌面快捷方式</span>
+                        <span class="card-title">g</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            准备工作注意:并不是所有应用都可以修改解决方法参照特殊情况部分下载MT管理器(各大应用商城直接搜索)下载创造应用快捷方式
-正文进入MT管理器，选择你要修改的应用查看使用反编译打开AndroidManifest.xml文件过滤(在右上角:中)
+                            
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-05-22
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-27
+                            </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/MT%E7%AE%A1%E7%90%86%E5%99%A8/" class="post-category">
-                                    MT管理器
-                                </a>
-                            
+                            <i class="fas fa-user fa-fw"></i>
+                            TomorrowX6
                             
                         </span>
                     </div>
                 </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/Android/">
-                        <span class="chip bg-color">Android</span>
-                    </a>
-                    
-                    <a href="/tags/%E8%BD%AF%E4%BB%B6/">
-                        <span class="chip bg-color">软件</span>
-                    </a>
-                    
-                    <a href="/tags/MT%E7%AE%A1%E7%90%86%E5%99%A8/">
-                        <span class="chip bg-color">MT管理器</span>
-                    </a>
-                    
-                </div>
+
                 
             </div>
         </div>
@@ -1320,31 +1047,31 @@ prism_plugin:
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/05/20/b/">
+                <a href="/2020/05/27/f/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="机场推荐(非合作)">
+                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="解析DNS(Freenom)">
                         
-                        <span class="card-title">机场推荐(非合作)</span>
+                        <span class="card-title">解析DNS(Freenom)</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            世界上没有免费的午餐，当然也没有纯免费的机场，一般都是有套路的，毕竟人们也要恰饭的，选择免费机场也要谨慎，一般免费的速度都特别慢，那是理所当然的所以在这里推荐一个机场免费EDU学术引擎官网写的很详细，这里就不多说了这个网址是赚购物返利的，如
+                            拥有了自己的域名，我们还需要解析首先进入Freenom点击 My Domains点击Manage Domain点击Nameservers添加参数F1G1NS1.DNSPOD.NETF1G1NS2.DNSPOD.NET登录DNSPod并进入控
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-20
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-27
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E6%9C%BA%E5%9C%BA/" class="post-category">
-                                    机场
+                            <a href="/categories/DNS/" class="post-category">
+                                    DNS
                                 </a>
                             
                             
@@ -1354,12 +1081,16 @@ prism_plugin:
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E6%9C%BA%E5%9C%BA/">
-                        <span class="chip bg-color">机场</span>
+                    <a href="/tags/%E5%9F%9F%E5%90%8D/">
+                        <span class="chip bg-color">域名</span>
                     </a>
                     
-                    <a href="/tags/%E5%8D%8A%E5%85%8D%E8%B4%B9/">
-                        <span class="chip bg-color">半免费</span>
+                    <a href="/tags/%E8%A7%A3%E6%9E%90/">
+                        <span class="chip bg-color">解析</span>
+                    </a>
+                    
+                    <a href="/tags/DNS/">
+                        <span class="chip bg-color">DNS</span>
                     </a>
                     
                 </div>

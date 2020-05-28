@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://tomorrowx6.ml/"/>
-  <updated>2020-05-27T09:07:40.351Z</updated>
+  <updated>2020-05-27T09:18:54.551Z</updated>
   <id>https://tomorrowx6.ml/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>g</title>
+    <link href="https://tomorrowx6.ml/2020/05/27/g/"/>
+    <id>https://tomorrowx6.ml/2020/05/27/g/</id>
+    <published>2020-05-27T09:18:54.000Z</published>
+    <updated>2020-05-27T09:18:54.551Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;script&gt;
+        document.querySelectorAll(&#39;.github-emoji&#39;)
+          .forEach(el =&gt; {
+            if (!el.dataset.src) { return; }
+       
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>解析DNS(Freenom)</title>
