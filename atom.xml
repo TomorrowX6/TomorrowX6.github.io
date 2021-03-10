@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://tomorrowx6.ml/"/>
-  <updated>2020-05-29T07:18:39.798Z</updated>
+  <updated>2020-05-31T02:28:33.000Z</updated>
   <id>https://tomorrowx6.ml/</id>
   
   <author>
@@ -15,6 +15,60 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>本博客无限期停更</title>
+    <link href="https://tomorrowx6.ml/2020/05/31/end/"/>
+    <id>https://tomorrowx6.ml/2020/05/31/end/</id>
+    <published>2020-05-31T02:23:38.000Z</published>
+    <updated>2020-05-31T02:28:33.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;由于考试原因，本博客无限期停更&lt;/p&gt;
+&lt;script&gt;
+        document.querySelectorAll(&#39;.github-emoji&#39;)
+          .forEach(el =&gt; {
+            if
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>QAQ</title>
+    <link href="https://tomorrowx6.ml/2020/05/31/h/"/>
+    <id>https://tomorrowx6.ml/2020/05/31/h/</id>
+    <published>2020-05-30T22:29:30.000Z</published>
+    <updated>2020-05-31T02:40:12.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;script&gt;
+        document.querySelectorAll(&#39;.github-emoji&#39;)
+          .forEach(el =&gt; {
+            if (!el.dataset.src) { return; }
+       
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>免费送域名邮箱</title>
